@@ -22,9 +22,9 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-uts breakfast ("pancakes")
-puts lunch("peanut butter")
-puts dinner("broccoli")
+puts breakfast ("frosted flakes")
+puts lunch("grilled cheese")
+puts dinner("salmon")
 
 # Call your methods without any arguments here
 puts snacks
