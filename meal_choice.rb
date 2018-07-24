@@ -4,29 +4,27 @@ def snacks(food="Cheetos")
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
-def breakfast (meal_choice="Frosted Flakes")
-  puts "Morning is the best time for #{meal_choice}!"
+def breakfast (food="Frosted Flakes")
+  puts "Morning is the best time for #{food}!"
 end
-def lunch (meal_choice="grilled cheese")
-  puts "Lunch is the best time for #{meal_choice}!"
+def lunch (food="grilled cheese")
+  puts "Lunch is the best time for #{food}!"
 end
-def dinner (meal_choice="salmon")
-  puts "Dinner is the best time for #{meal_choice}!"
+def dinner (food="salmon")
+  puts "Dinner is the best time for #{food}!"
 end
-
 
 
 
 
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
-puts breakfast ("pancakes")
-puts lunch("peanut butter")
-puts dinner("broccoli")
-
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
+uts breakfast ("pancakes")
+puts lunch("peanut butter")
+puts dinner("broccoli")
 
 # Call your methods without any arguments here
 puts snacks
